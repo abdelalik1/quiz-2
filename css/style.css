@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	background-color: blue;
+	height:350px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width: 100%
+}
+.logo{
+	width:90px;
+	height:90px;
+	border-radius:45px;
+}
+.search{
+	margin-top:20px;
+	height:40px;
+	width:40%;
+	font-size:14px;
+	border-radius:5px;
+	background-color:#f7f7f7;
+	background-image:url(../images/search.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:5% 60%;
+}
+.form_text{
+	color:#FFF;
+	font-stretch:ultra-expanded;
+}
+.sec{
+	background-color:#f7f7f7;
+}
+.discover{
+	color:#ad277c;
+	margin-top:25px;
+}
+.top_text{
+	font-size:30px;
+	color:#300;
+	font-weight:bold;
+	margin-top:20px;
+	color:#403430;
+}
+.text_info{
+	margin-top:20px;
+}
+nav ul li a{
+	color:#000;
+	text-decoration:none;
+}
+nav ul li{
+	width:150px;
+	margin-left:30px;
+	padding:20px;
+	margin-top:50px;
+	font-weight:bold;
+	list-style:none;
+}
+nav ul li a{
+	color:#404040;
+}
+nav ul li a:hover{
+	color:#40ccbb;
+	background-color:#f7f7f7;
+	text-decoration:none;
+}
+
+.assets{
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	height:150px;
+	background-position:center;
+	background-size:cover;
+}
+.bttn{
+	margin-top:30px;
+	margin-bottom:130px;
+}
+.footer{
+	height:50px;
+	background-color:#000;
+	color:#999;
+}
